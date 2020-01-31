@@ -8,7 +8,7 @@ namespace Deliverable_2___Iterative_Statement
         {
             // Ask the user to input numeric value between 1 and 100:
 
-            Console.Write("Please enter a numeric value between 1 and 100");
+            Console.Write("Please enter a numeric value between 1 and 100: ");
 
             try
             {
@@ -18,7 +18,7 @@ namespace Deliverable_2___Iterative_Statement
                 int value;
                 int count;
                 value = int.Parse(input);
-                Console.ReadLine();
+                // Console.ReadLine();
 
 
                 //Space
@@ -81,7 +81,7 @@ namespace Deliverable_2___Iterative_Statement
                 
                 else
                     {
-                    Console.WriteLine("A negative numeric value was entered, please enter a value between 0 and 100");
+                    Console.WriteLine("An invalid numeric value was entered, please enter a value between 0 and 100");
                     Console.WriteLine("Hit any key to exit the program");
 
                     }
