@@ -7,7 +7,6 @@ namespace Deliverable_2___Iterative_Statement
         static void Main(string[] args)
         {
             // Ask the user to input numeric value between 1 and 100:
-
             Console.Write("Please enter a numeric value between 1 and 100: ");
 
             try
@@ -18,11 +17,8 @@ namespace Deliverable_2___Iterative_Statement
                 int value;
                 int count;
                 value = int.Parse(input);
-                // Console.ReadLine();
 
 
-                //Space
-                Console.WriteLine("\n");
 
                 // If the value of user input is between 0 and 33, display value and loop number 1
                 count = 1;
@@ -79,6 +75,8 @@ namespace Deliverable_2___Iterative_Statement
                     Console.ReadKey(true);
                 }//end of while
                 
+
+                //If user inputs anything outside of 0-100, an error message is displayed
                 else
                     {
                     Console.WriteLine("An invalid numeric value was entered, please enter a value between 0 and 100");
@@ -86,6 +84,7 @@ namespace Deliverable_2___Iterative_Statement
 
                     }
 
+            //If user inputs anything outside of 0-100, an error message is displayed
             }
             catch
             {
